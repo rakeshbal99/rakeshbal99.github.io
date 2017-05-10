@@ -1,0 +1,149 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffcc66;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+li {
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.margin{margin:16px!important}
+.center{text-align:center!important}
+/*.center{display:inline-block;width:auto}
+.center{text-align:center}*/
+.red{color:#fff!important;background-color:/*#4ABDAC*/#f44336!important}	
+.jumbo{font-size:64px!important}
+.xlarge{font-size:24px!important}
+.button:hover{color:#000!important;background-color:#ccc!important}
+.black{color:#fff!important;background-color:#000!important}
+.padding-large{padding:12px 24px!important}
+.large{font-size:18px!important}
+.margin-top{margin-top:16px!important}.margin-bottom{margin-bottom:16px!important}
+
+.top{position:fixed;width:100%;z-index:1}
+.top{top:0}
+
+img {
+  width: 200px;
+  height: 300px;
+  float: right;
+  padding-left: 40px;
+}
+
+.row-padding:after,.row-padding:before {
+	content:"";display:table;clear:both;
+}
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.container,.panel{padding:0.01em 16px;background-color: /*#ccffff*/#ffcc66}
+.container{padding:0.01em 16px}
+
+.container:after,.container:before{content:"";display:table;clear:both}
+
+.content{
+    max-width:1080px;
+    margin:auto}
+
+.icons{
+    background-color: /*#ffcce6#f44336*/#ff9999;
+    margin-top: 1px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.icons .click {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 25px;
+}
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+
+.icons .click:hover {
+    padding: 20px;
+    color:white;
+    margin-left: -5px;
+}
+
+.icons .click.github {
+  background-color: black ;
+  border: 2px solid black;
+  color: white;
+}
+
+.icons .click.facebook {
+  background-color: #3B5998;
+    border: 2px solid #3B5998;
+  color: white;
+}
+.icons .click.quora {
+  background-color: red;
+    border: 2px solid red;
+  color: white;
+}
+.icons .click.linkedin {
+  background-color: darkcyan;
+  border: 2px solid darkcyan;
+  color: white;
+}
