@@ -15,7 +15,7 @@ subtitle: "This is where you know what I tinker around with."
     *   Implemented Mission Planner in ROS to perform actions and take decisions.
     *   Used Actionlib and Smach Packages of ROS to implement Mission Planner.
 
-    ##### Fatser RCNN for Object Detection
+    ##### Faster RCNN for Object Detection
 
     *   Studied and implementing Faster R-CNN for Real-Time Object Detection and Localization. 
 
