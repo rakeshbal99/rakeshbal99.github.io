@@ -8,11 +8,11 @@ subtitle: "This is where you know what I tinker around with."
 <hr>
 ### Discovering and Mitigating Algorithmic Bias using Deep Neural Networks
 
-*   #### Guide: Niloy Ganguly
-    
-    ##### Working on discovering bias in COMPAS dataset using deep neural networks.
+*   #### Guide: Prof. Niloy Ganguly
 
-    ##### Formulating ideas for its mitigation using Layerwise Relevance Propagation technique.
+    * Working on discovering bias in COMPAS dataset using deep neural networks.
+
+    * Formulating ideas for its mitigation using Layerwise Relevance Propagation technique.
 
 ### Team AUV Projects
 
