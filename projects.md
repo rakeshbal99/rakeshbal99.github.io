@@ -6,23 +6,27 @@ subtitle: "This is where you know what I tinker around with."
 ---
 ### Project list
 <hr>
+### Discovering and Mitigating Algorithmic Bias using Deep Neural Networks
+
+*   #### Guide: Niloy Ganguly
+    
+    ##### Working on discovering bias in COMPAS dataset using deep neural networks.
+
+    ##### Formulating ideas for its mitigation using Layerwise Relevance Propagation technique.
+
 ### Team AUV Projects
 
-*   #### Object Detection
+*   #### Guide: Prof. CS Kumar
 
-    ##### Mission-Planner
+    ##### Object Detection
+
+    *   Implemented real time under water buoy detection using lighter version of MobileNet and YOLO Object Detection architectures.
+    *   Working on making the inference of models lightweight and suitable for the bot using Movidius NCS.
+
+    ##### Mission Planner
 
     *   Implemented Mission Planner in ROS to perform actions and take decisions.
     *   Used Actionlib and Smach Packages of ROS to implement Mission Planner.
-
-    ##### Faster RCNN for Object Detection
-
-    *   Studied and implementing Faster R-CNN for Real-Time Object Detection and Localization. 
-
-    ##### HSV Thresholding
-
-    *   Implemented an Thresholding algorithm using the HSV color space to segment buoy from the surroundings.
-    *   Thresholds based on the hue, saturation, and value of the buoy.
 
 * * *
 
@@ -35,18 +39,10 @@ subtitle: "This is where you know what I tinker around with."
     *   Studied and analysed the research paper on Convolutional Sequence to Sequence Learning.
     *   Analysed the results on the pre-trained models for Fair-Seq in PyTorch by noting their BLEU score and trained new models from scratch.
 
-*   #### A Recommender System App [under construction]
+*   #### A Recommender System App
 
     ##### synisto
 
     *   Wrote a python for python script for recommending movies to users based on their historical choices.
     *   Used Restricted Boltzman Machines to recontruct user's ratings.
     *   Used Matrix Factorization to predict user's rating for movies he/she hasn't seen.
-
-*   #### Scientific calculator Python
-
-    ##### Calculator
-
-    *   Developed a calculator app in python using standard library.
-    *   Used Python GUI framework PySide to implement the GUI.
-    *   Used Qt Designer for designing the GUI part.
