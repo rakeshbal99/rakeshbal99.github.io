@@ -1,24 +1,55 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:20 %}
+    <title>Rakesh Bal</title>
+    <description></description>
+    <link>http://rakeshbal99.github.io/</link>
+    <atom:link href="http://rakeshbal99.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Feb 2019 19:02:44 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Feb 2019 19:02:44 +0000</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>
-          {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
-          {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
-        </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <title>A memorable date :')</title>
+        <description>&lt;p&gt;A very happy 2019 folks! Being sick of not being able to follow new year resolutions for the last 2 decades (TIL - 2 decades feels much older than 20 years), I decided to set new year goals after 1st January this year, when all the excitement (high, buzz or hangover) about the new year fades away, and all that remains is posters and advertisements about sales and discount offers. An intriguing thought struck me this new years’ eve. Many real people and almost all Instagram accounts around me were more excited about 2019 on the last day of 2018 than about their plans on the first day of 2019. The contrast feels quite amusing in retrospect - the buzz, energy, and vibe on 31st December 2018 juxtaposed with the tired, hungover and late morning, the very first morning of 2019. If this feels out of context, this was just me trying to explain my decision to contemplate on my new year resolutions after the commencement of 2019. Living by impulsive resolutions for a whole year is much more difficult than pursuing goals pillared by deep-seated passion and conscious, yet determined choices. &lt;br /&gt;
+(This does not mean that the latter is any easier!).&lt;/p&gt;
+
+&lt;p&gt;Wonderful Blogs by three of my friends - &lt;a href=&quot;http://martiansideofthemoon.github.io/&quot;&gt;Kalpesh&lt;/a&gt;, &lt;a href=&quot;https://nihal111.github.io/about/&quot;&gt;Nihal&lt;/a&gt; and &lt;a href=&quot;https://www.akashtrehan.com/&quot;&gt;Akash&lt;/a&gt; have been crucial in motivating me to start blogging regularly (You might want to read their blogs after finishing this short article, not before that :P). I was hesitant about writing blogs all this while due to a lack of confidence in writing style and semantic preferences (So don’t judge me, I have warned you in advance :P.). I love going haywire with words and thoughts while writing freeverse. Writing is like a doorway to me, a passage to my inner thoughts and emotions, which are often suppressed due to outside interferences by people and daily life (This line was intentionally added to give you a taste of what haywire means, don’t worry this is the last time I am going haywire in this article, please go on reading :P). While writing essays for grad school applications, I noticed that I was miserably failing to convey what I actually wanted to. This hit me hard and I realized that the way only I can bridge the gap between my thoughts and the physical world, is to write my heart out. And that is the second most important resolution this year - to write more and write regularly. (Of course, I am gonna hit the gym like rest of the world for a month! That’s always the most important resolution every year :P).&lt;/p&gt;
+
+&lt;p&gt;Let’s talk about my lovely date now, the blog post is about her after all. So here I am, on the 2nd of January, 8:00 PM,  waiting for her in Starbucks. Starbucks is a calming place for me. Simply brilliant for spending quality me time, meeting new people and even studying for exams (also writing blogs like these). Free wifi, so many pretty MacBooks (and people), coupled with a lovely ambience - The place has everything I need. My date is still a few hours away like always (she is a pricey affair, but the wait is definitely worth it). Sadly, she is spatiotemporally a bit far from me, and I get to see her only once a year. In my head, we know each other since the last 14-15 years (that’s the farthest my memory goes back in time) but I still get butterflies before meeting her everytime. I love being with her alone, but some of my friends like her a lot and hence we have to spend some non-zero time with them too.&lt;/p&gt;
+
+&lt;p&gt;Being with her is an ineffably surreal experience. Every time we meet, she makes me realize how much I have grown since our last encounter. I feel genuinely good and happy about myself in her presence, unlike most people, things and days. Our rendezvous is always accompanied by a conflicting crossroad for me. While one part of me wants to scream, shout and announce her arrival to the entire world, the other just longs a quiet and serene walk with her, by the beautiful lakeside in the campus. Sadly enough (again), I get very few private moments with her since some of my dearest but anxious friends start calling me, asking her whereabouts and insisting us to spend some time with them. I can do anything and everything possible to walk with her alone for a few more moments. Every year, I wish that I could spend lots of time with her at some nice place, like a rooftop restaurant sipping wine together or playing guitar by a campfire. Even a terrace with a beautiful backdrop works. But things always don’t go our way, do they? For the last few years, we have been meeting at a shabby food outlet in college. Barely a few quiet moments by the lakeside, gazing at the mighty heavens is all we get. Don’t get me wrong, I love the facts that my friends adore her this much. It’s just, I wish I could get a bit more alone time with her :P (The heart wants what it wants). She is very close to my parents too, and has met them quite a few times in the past when I lived with them in Bhopal. They always get her gifts, without a miss every year. I envied her a lot as a kid  (and still do sometimes), that why is she the only one getting all the affection and gifts! But being an amazing soul, she always shares all the love and gifts with me :’).&lt;/p&gt;
+
+&lt;p&gt;When I was a kid, mom told me that she was the one who broke the ice between us, and I will forever be grateful to her that. Dad is a bit busy these days, but he delivered her gift for this year in advance! This is what dad plans to give her this year. Ah, I can’t wait any further she is almost here now :D.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://rakeshbal99.github.io/assets/dad_collage.jpg&quot; alt=&quot;Thanks Dad&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Curious who she is? Well, mom tells me that our love story goes back to 1998 when I was born (I don’t even remember!). She is fondly called 3rd January by everyone. Judge me all you want, this was the best piece of creativity I have come up with in the last 6 months. Feels really good and refreshing, writing something for myself, without any external influences and triggers :D. So yeah, as narcissistic as it sounds, &lt;em&gt;A very happy birthday to me, by me and for me!&lt;/em&gt; :D&lt;/p&gt;
+
+&lt;p&gt;P.S. Read the title again if you haven’t already :) 
+Next up - An adventurous trip to Meghalaya!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Jan 2019 18:25:55 +0000</pubDate>
+        <link>http://rakeshbal99.github.io/2019/01/03/A-memorable-date.html</link>
+        <guid isPermaLink="true">http://rakeshbal99.github.io/2019/01/03/A-memorable-date.html</guid>
+        
+        <category>blog</category>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Dummy Blog</title>
+        <description>&lt;p&gt;Just a dummy blog, stay tuned for upcoming content.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Oct 2018 10:40:55 +0000</pubDate>
+        <link>http://rakeshbal99.github.io/2018/10/24/dummy-blog.html</link>
+        <guid isPermaLink="true">http://rakeshbal99.github.io/2018/10/24/dummy-blog.html</guid>
+        
+        <category>dummy</category>
+        
+        
+      </item>
+    
   </channel>
 </rss>
