@@ -1,5 +1,5 @@
-# Personal Website
+# Personal Website and Blog
 
-Hosted at http://rakeshbal99.github.io/
+Hosted [here](https://rakeshbal99.github.io/)
 
 Template Credits: [Martian](http://martiansideofthemoon.github.io/)
