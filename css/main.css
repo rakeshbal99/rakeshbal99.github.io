@@ -31,11 +31,11 @@ figure {
 
 [data-theme="dark"] {
     --bg-color: #0f111a;
-    --font-color: #7e8ea3;
+    --font-color: #9ba2c2;
     --anchor-color: #e55696;
     --anchor-visited-color: #e55696;
     --anchor-hover-color: #e55696;
-    --site-title-color: #7e8ea3;
+    --site-title-color: #9ba2c2;
     --page-link-color: #e55696;
 }
 
