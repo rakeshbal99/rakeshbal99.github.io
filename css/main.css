@@ -26,6 +26,7 @@ figure {
     --anchor-hover-color: #113f7c;
     --site-title-color: #424242;
     --page-link-color: #111;
+    --img-background-colour: invert(0);
 }
 
 
@@ -37,6 +38,7 @@ figure {
     --anchor-hover-color: #e55696;
     --site-title-color: #9ba2c2;
     --page-link-color: #e55696;
+    --img-background-colour: invert(1);
 }
 
 body {
@@ -71,6 +73,10 @@ figure,
 img {
 	max-width: 100%;
 	vertical-align: middle
+}
+
+.image-blog {
+	filter: var(--img-background-colour);
 }
 
 figure>img {
