@@ -1,0 +1,60 @@
+# Site settings
+title: Rakesh Bal
+description: Personal portfolio and blog of Rakesh Bal - MLOps Engineer
+author:
+  name: Rakesh Bal
+  email: rakeshbal99@gmail.com
+url: "https://rakeshbal99.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  poems:
+    output: true
+    permalink: /:year/:month/:day/:title.html
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Rakesh Bal"
+  - scope:
+      path: ""
+      type: "poems"
+    values:
+      layout: "poem"
+      author: "Rakesh Bal"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - CLAUDE.md
+  - .claude
+
+# Feed settings
+feed:
+  path: feed.xml

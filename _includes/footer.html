@@ -1,0 +1,57 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>{{ site.author.name }}</li>
+          <li><a href="mailto:rakeshbal99@gmail.com">rakeshbal99@gmail.com</a></li>
+          <li><a href="mailto:rakeshbal99@g.ucla.edu">rakeshbal99@g.ucla.edu</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          {% for social in site.data.social %}
+          {% if social.icon == "github" or social.icon == "letterboxd" or social.icon == "linkedin" %}
+          <li>
+            <a href="{{ social.url }}">
+              <span class="icon icon--{{ social.icon }}">
+                {% include social-icons.html icon=social.icon %}
+              </span>
+              <span class="username">{% if social.icon == "linkedin" %}&nbsp;{% endif %}{{ social.username }}</span>
+            </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-col footer-col-4">
+        <ul class="social-media-list">
+          {% for social in site.data.social %}
+          {% if social.icon == "scholar" %}
+          <li>
+            <a href="{{ social.url }}">
+              <span class="icon icon--github">
+                {% include social-icons.html icon=social.icon %}
+              </span>
+              <span class="username"> {{ social.username }}</span>
+            </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+          <li>
+            <nav>
+              <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="slider round"></div>
+                </label>
+                &nbsp;Toggle Dark Mode
+              </div>
+            </nav>
+          </li>
+          <li>Template Credits: <a href="http://martiansideofthemoon.github.io/">Martian</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

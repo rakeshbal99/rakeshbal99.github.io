@@ -1,3 +1,9 @@
 assets/other_cvs
 */.DS_Store
 /.DS_Store
+
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
