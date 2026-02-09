@@ -17,7 +17,7 @@ Like the lights in my room that keep me alive.
 Searching for passengers in search of paths,  
 I crossed the boundaries of oceans all alone,  
 Blissfully mourning my existence as a subject,  
-And woefully celebraring my fears as an object.
+And woefully celebrating my fears as an object.
 
 Trying to capture the imagination of thousands;  
 In a little bottle of pain, I failed, I failed again,  
