@@ -22,4 +22,4 @@ I rather rip apart my voice, than stay curbed in despair,
 In hands, in arms, in ahimsa we will cry the foul of the bad,  
 In hands, in arms, in ahimsa we will cry the foul of the bad,  
 Whenever you get beaten up my brothers, chant..  
-Inquilab zindabad, Inquilab zindabad, Inquilab zindabad.
+Inquilab zindabad, Inquilab zindabad.
