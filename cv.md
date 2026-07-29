@@ -4,7 +4,10 @@ title: CV
 permalink: /cv
 ---
 
-[Download PDF]({{ '/assets/cv_short.pdf' | relative_url }}) (1 page) | [LaTeX Source]({{ '/assets/cv_enhanced.tex' | relative_url }})
+<div class="cv-links">
+  <span><a href="{{ '/assets/cv_short.pdf' | relative_url }}">Download PDF</a> (1 page)</span>
+  <span><a href="{{ '/assets/cv_enhanced.tex' | relative_url }}">LaTeX Source</a></span>
+</div>
 
 ---
 
@@ -16,11 +19,11 @@ ML Engineer with 5+ years of experience in production ML systems, LLM developmen
 
 ## Education
 
-**University of California Los Angeles (UCLA)** — Los Angeles, CA
-*Master of Science in Computer Science* | GPA: 3.81/4.0 | Sep 2021 - Jun 2023
+### University of California Los Angeles (UCLA) — Los Angeles, CA
+**Master of Science in Computer Science** | GPA: 3.81/4.0 | Sep 2021 - Jun 2023
 
-**Indian Institute of Technology (IIT) Kharagpur** — Kharagpur, India
-*Bachelor of Technology in Computer Science & Engineering* | GPA: 9.04/10.0 | Jul 2016 - May 2020
+### Indian Institute of Technology (IIT) Kharagpur — Kharagpur, India
+**Bachelor of Technology in Computer Science & Engineering** | GPA: 9.04/10.0 | Jul 2016 - May 2020
 
 ---
 
@@ -70,16 +73,16 @@ ML Engineer with 5+ years of experience in production ML systems, LLM developmen
 
 ## Publications
 
-**PGraphDTA: Improving Drug-Target Interaction Prediction using Protein Language Models and Contact Maps**
-Rakesh Bal et al. | NeurIPS 2023 Workshop on AI for Science | 5 citations
+**[PGraphDTA: Improving Drug-Target Interaction Prediction using Protein Language Models and Contact Maps](https://scholar.google.com/scholar?q=%22PGraphDTA%3A%20Improving%20Drug-Target%20Interaction%20Prediction%20using%20Protein%20Language%20Models%20and%20Contact%20Maps%22)**
+Rakesh Bal et al. | NeurIPS 2023 Workshop on AI for Science
 - Developed novel architecture combining protein LLM embeddings with structural contact maps for improved DTI prediction
 
-**Two-Sided Fairness in Non-Personalised Recommendations**
-Rakesh Bal et al. | AAAI 2021 Student Abstract | 9 citations
+**[Two-Sided Fairness in Non-Personalised Recommendations](https://scholar.google.com/scholar?q=%22Two-Sided%20Fairness%20in%20Non-Personalised%20Recommendations%22)**
+Rakesh Bal et al. | AAAI 2021 Student Abstract
 - Proposed fairness-aware recommendation framework balancing user and item-side equity
 
-**Analysing the Extent of Misinformation in Cancer Related Tweets**
-Rakesh Bal et al. | ICWSM 2020 | 42 citations
+**[Analysing the Extent of Misinformation in Cancer Related Tweets](https://scholar.google.com/scholar?q=%22Analysing%20the%20Extent%20of%20Misinformation%20in%20Cancer%20Related%20Tweets%22)**
+Rakesh Bal et al. | ICWSM 2020
 - Created dataset and attention-based BiLSTM-CRF model for detecting health misinformation; contributed to responsible AI by identifying harmful content patterns
 
 ---
@@ -106,6 +109,7 @@ Rakesh Bal et al. | ICWSM 2020 | 42 citations
 | **Cloud/Infra** | AWS (SageMaker, EC2, S3, Lambda), GCP, Azure, Terraform |
 | **Data** | Snowflake, DBT, ETL Pipelines, DataDog, SQL |
 | **Languages** | Python, Java, C++, Go, SQL, TypeScript |
+{: .skills-table}
 
 ---
 

@@ -436,30 +436,38 @@ pre>code {
 	border-top: 1px solid var(--divider-color)
 }
 
+.cv-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px
+}
+
 .post-content ul li {
 	margin-bottom: 8px;
 	line-height: 1.6
 }
 
-.post-content table {
+.skills-table {
 	width: 100%;
 	border-collapse: collapse;
 	margin-bottom: 15px
 }
 
-.post-content th,
-.post-content td {
+.skills-table th,
+.skills-table td {
 	padding: 8px 12px;
 	text-align: left;
 	border-bottom: 1px solid var(--divider-color)
 }
 
-.post-content th {
+.skills-table th {
 	font-weight: 700
 }
 
 @media screen and (max-width: 800px) {
-	.post-content table {
+	.skills-table {
 		display: block;
 		overflow-x: auto;
 		font-size: 14px
