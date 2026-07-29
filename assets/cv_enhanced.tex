@@ -1,0 +1,228 @@
+%-------------------------
+% CV for Frontier AI Lab ML Roles
+% Author: Rakesh Bal
+% Based on template optimized for ATS
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+
+% Page setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%  DOCUMENT START
+%-------------------------------------------
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Rakesh Bal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (424) 440-9976 ~
+    \href{mailto:rakeshbal99@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{rakeshbal99@gmail.com}} ~
+    \href{https://linkedin.com/in/rakeshbal99}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/rakeshbal99}}  ~
+    \href{https://github.com/rakeshbal99}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/rakeshbal99}} ~
+    \href{https://rakeshbal99.github.io}{\raisebox{-0.2\height}\faGlobe\ \underline{rakeshbal99.github.io}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+ML Engineer with 5+ years of experience in production ML systems, LLM development, and applied AI research. Published at NeurIPS, AAAI, and ICWSM with 56+ citations. Track record of deploying ML at scale: 15-30\% accuracy improvements, 99.89\% pipeline uptime, and systems serving 50K+ daily users. Experienced in LLM fine-tuning, distributed training, and end-to-end MLOps. Strong foundation in responsible AI through published work on misinformation detection and algorithmic fairness.
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California Los Angeles (UCLA)}{Sep 2021 -- Jun 2023}
+      {Master of Science in Computer Science | GPA: 3.81/4.0}{Los Angeles, CA}
+    \resumeSubheading
+      {Indian Institute of Technology (IIT) Kharagpur}{Jul 2016 -- May 2020}
+      {Bachelor of Technology in Computer Science \& Engineering | GPA: 9.04/10.0}{Kharagpur, India}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Stovell AI Systems}{Jan 2024 -- Present}
+      {Machine Learning Engineer}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Architect end-to-end ML pipelines for model training, deployment, and monitoring, tracking both model accuracy and business ROI impact across multiple customers}
+        \resumeItem{Design and train custom architectures (Transformers, LSTMs, CNNs, hybrids) for fuel price and volume demand forecasting, achieving 15-30\% MAE reduction}
+        \resumeItem{Develop causal inference models for price-volume elasticity prediction; create evaluation frameworks measuring model performance and downstream business impact}
+        \resumeItem{Build production ETL pipelines for data ingestion, processing, and model inference; maintain 99.89\% uptime SLA across all customer deployments}
+        \resumeItem{Implement comprehensive monitoring with DataDog and Weights \& Biases for data quality validation, model drift detection, and accuracy tracking across geographies}
+        \resumeItem{Conduct systematic model evaluation including robustness testing, edge case analysis, and failure mode identification before production deployment}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Amazon Web Services (AWS)}{Jun 2022 -- Sep 2022}
+      {Applied Scientist Intern}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Benchmarked large language models (ProtBERT, ProtT5, ProtGPT) for Drug-Target Interaction (DTI) prediction; integrated diffusion-based molecular docking}
+        \resumeItem{Implemented data-parallel distributed training on P4d.24xlarge instances (8x A100 GPUs), achieving 2x memory efficiency through gradient checkpointing and mixed precision}
+        \resumeItem{Improved baseline performance by 20\% and 12\% on two benchmark datasets using protein language model embeddings; results presented at Amazon ML Conference}
+        \resumeItem{Developed systematic evaluation pipeline for model comparison including accuracy, inference latency, and computational cost tradeoffs}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Goldman Sachs}{Aug 2020 -- Sep 2021}
+      {Software Engineer}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Led full-stack development integrating two internal bug tracking systems with migration to AWS, architecting scalable RESTful APIs serving 50,000+ daily users}
+        \resumeItem{Built backend services with Java/Spring Boot and frontend with TypeScript/Angular; managed complete SDLC from requirements to production deployment}
+        \resumeItem{Designed database schemas and optimized query performance for high-throughput issue tracking workflows}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Kanini Software Solutions}{Aug 2023 -- Jan 2024}
+      {DevOps Engineer}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Automated infrastructure provisioning for healthcare platform using Terraform, improving deployment reliability with AWS S3, Lambda, and RDS}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{PGraphDTA: Improving Drug-Target Interaction Prediction using Protein LLMs and Contact Maps}}{NeurIPS 2023 Workshop}
+          \resumeItemListStart
+            \resumeItem{Rakesh Bal et al. | AI for Science Workshop | 5 citations}
+            \resumeItem{Developed novel architecture combining protein LLM embeddings with structural contact maps for improved DTI prediction}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Two-Sided Fairness in Non-Personalised Recommendations}}{AAAI 2021}
+          \resumeItemListStart
+            \resumeItem{Rakesh Bal et al. | Student Abstract | 9 citations}
+            \resumeItem{Proposed fairness-aware recommendation framework balancing user and item-side equity}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Analysing the Extent of Misinformation in Cancer Related Tweets}}{ICWSM 2020}
+          \resumeItemListStart
+            \resumeItem{Rakesh Bal et al. | 42 citations}
+            \resumeItem{Created dataset and attention-based BiLSTM-CRF model for detecting health misinformation; contributed to responsible AI by identifying harmful content patterns}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{DeepSub: Fine-tuning LLMs for Multi-Source Subtitle Translation} $|$ \emph{QLoRA, Gemma-7B, LLaMA-7B}}{}
+          \resumeItemListStart
+            \resumeItem{Fine-tuned Gemma-7B and LLaMA-7B using QLoRA (4-bit quantization) for multilingual subtitle translation synthesizing context from 2 source languages}
+            \resumeItem{Implemented triplet translation pipeline; evaluated on 6 Indic and 3 European languages with BLEU score tracking via Weights \& Biases}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{CLIP for Visual Question Answering (VQA)} $|$ \emph{OpenAI CLIP, MCAN, Pythia}}{}
+          \resumeItemListStart
+            \resumeItem{Integrated OpenAI CLIP with VQA architectures (MCAN, Pythia) achieving 2\% improvement in both zero-shot and fine-tuned settings on VQA2.0}
+            \resumeItem{Added Language-Driven Semantic Segmentation (LSeg) for improved counting questions}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{LLM/GenAI}{: Transformers, LLM Fine-tuning (QLoRA/LoRA/PEFT), vLLM, LangGraph, HuggingFace, Prompt Engineering, Model Evaluation} \\
+     \textbf{ML Frameworks}{: PyTorch, TensorFlow, Keras, scikit-learn, XGBoost} \\
+     \textbf{MLOps}{: Docker, Kubernetes, KubeFlow, MLflow, Weights \& Biases, Distributed Training, Model Serving} \\
+     \textbf{Cloud/Infra}{: AWS (SageMaker, EC2, S3, Lambda), GCP, Azure, Terraform} \\
+     \textbf{Data}{: Snowflake, DBT, ETL Pipelines, DataDog, SQL} \\
+     \textbf{Languages}{: Python, Java, C++, Go, SQL, TypeScript}
+    }}
+ \end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{IIT-JEE Advanced}{: All India Rank 265 out of 200,000 candidates} \\
+     \textbf{IIT-JEE Mains}{: All India Rank 187 out of 1,300,000 candidates} \\
+     \textbf{KVPY Fellowship}{: All India Rank 191 (prestigious national science scholarship)}
+    }}
+ \end{itemize}
+
+\end{document}

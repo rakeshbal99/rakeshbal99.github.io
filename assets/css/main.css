@@ -27,6 +27,7 @@ figure {
     --site-title-color: #424242;
     --page-link-color: #111;
     --img-background-colour: invert(0);
+    --divider-color: #e8e8e8;
 }
 
 
@@ -39,6 +40,7 @@ figure {
     --site-title-color: #9ba2c2;
     --page-link-color: #e55696;
     --img-background-colour: invert(1);
+    --divider-color: #2a2d3a;
 }
 
 body {
@@ -393,7 +395,9 @@ pre>code {
 }
 
 .post-content h2 {
-	font-size: 32px
+	font-size: 32px;
+	margin-top: 40px;
+	margin-bottom: 15px
 }
 
 @media screen and (max-width: 800px) {
@@ -403,7 +407,9 @@ pre>code {
 }
 
 .post-content h3 {
-	font-size: 26px
+	font-size: 26px;
+	margin-top: 25px;
+	margin-bottom: 10px
 }
 
 @media screen and (max-width: 800px) {
@@ -413,7 +419,9 @@ pre>code {
 }
 
 .post-content h4 {
-	font-size: 20px
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 8px
 }
 
 @media screen and (max-width: 800px) {
@@ -422,9 +430,40 @@ pre>code {
 	}
 }
 
+.post-content hr {
+	margin: 30px 0;
+	border: none;
+	border-top: 1px solid var(--divider-color)
+}
+
 .post-content ul li {
 	margin-bottom: 8px;
 	line-height: 1.6
+}
+
+.post-content table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 15px
+}
+
+.post-content th,
+.post-content td {
+	padding: 8px 12px;
+	text-align: left;
+	border-bottom: 1px solid var(--divider-color)
+}
+
+.post-content th {
+	font-weight: 700
+}
+
+@media screen and (max-width: 800px) {
+	.post-content table {
+		display: block;
+		overflow-x: auto;
+		font-size: 14px
+	}
 }
 
 .highlight {
