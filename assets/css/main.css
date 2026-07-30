@@ -19,28 +19,29 @@ figure {
 }
 
 :root {
-    --bg-color: #fff;
-    --font-color: #111;
-    --anchor-color: #2a7ae2;
-    --anchor-visited-color: #1756a9;
-    --anchor-hover-color: #113f7c;
-    --site-title-color: #424242;
-    --page-link-color: #111;
+    --bg-color: #faf7f2;
+    --font-color: #2b2620;
+    --anchor-color: #b5651d;
+    --anchor-visited-color: #8a4a13;
+    --anchor-hover-color: #6e3a0f;
+    --site-title-color: #4a3f33;
+    --page-link-color: #2b2620;
     --img-background-colour: invert(0);
-    --divider-color: #e8e8e8;
+    --divider-color: #e5ddd0;
+    --heading-font: 'Lora', Georgia, 'Times New Roman', serif;
 }
 
 
 [data-theme="dark"] {
-    --bg-color: #0f111a;
-    --font-color: #9ba2c2;
-    --anchor-color: #e55696;
-    --anchor-visited-color: #e55696;
-    --anchor-hover-color: #e55696;
-    --site-title-color: #9ba2c2;
-    --page-link-color: #e55696;
+    --bg-color: #1b1712;
+    --font-color: #ded4c4;
+    --anchor-color: #e0a458;
+    --anchor-visited-color: #c98f47;
+    --anchor-hover-color: #f0b876;
+    --site-title-color: #ded4c4;
+    --page-link-color: #e0a458;
     --img-background-colour: invert(1);
-    --divider-color: #2a2d3a;
+    --divider-color: #3a3226;
 }
 
 body {
@@ -105,12 +106,14 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 400
+	font-weight: 400;
+	font-family: var(--heading-font)
 }
 
 a {
 	color: var(--anchor-color);
-	text-decoration: none
+	text-decoration: none;
+	transition: color 0.15s ease
 }
 
 a:visited {
@@ -119,15 +122,18 @@ a:visited {
 
 a:hover {
 	color: var(--anchor-hover-color);
+	text-decoration: underline
 }
 
 blockquote {
-	color: #828282;
-	border-left: 4px solid #e8e8e8;
-	padding-left: 15px;
-	font-size: 18px;
-	letter-spacing: -1px;
-	font-style: italic
+	color: var(--font-color);
+	opacity: 0.85;
+	border-left: 4px solid var(--anchor-color);
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: var(--heading-font);
+	font-style: italic;
+	margin: 25px 0
 }
 
 blockquote>:last-child {
@@ -194,7 +200,7 @@ pre>code {
 }
 
 .site-header {
-	border-bottom: 1px solid #e8e8e8;
+	border-bottom: 1px solid var(--divider-color);
 	min-height: 56px;
 	position: relative
 }
@@ -276,7 +282,7 @@ pre>code {
 }
 
 .site-footer {
-	border-top: 1px solid #e8e8e8;
+	border-top: 1px solid var(--divider-color);
 	padding: 30px 0
 }
 
@@ -365,8 +371,12 @@ pre>code {
 }
 
 .post-meta {
-	font-size: 14px;
-	color: #828282
+	font-size: 13px;
+	font-style: italic;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: var(--font-color);
+	opacity: 0.6
 }
 
 .post-link {
@@ -446,7 +456,20 @@ pre>code {
 
 .post-content ul li {
 	margin-bottom: 8px;
-	line-height: 1.6
+	line-height: 1.75
+}
+
+.post-content p {
+	line-height: 1.75
+}
+
+.poem .post-content > p:first-of-type::first-letter {
+	font-family: var(--heading-font);
+	font-size: 3.5em;
+	float: left;
+	line-height: 0.8;
+	padding-right: 8px;
+	color: var(--anchor-color)
 }
 
 .skills-table {
@@ -789,7 +812,7 @@ pre>code {
 }
 
 input:checked + .slider {
-  background-color: #e55696;
+  background-color: var(--anchor-color);
 }
 
 input:checked + .slider:before {

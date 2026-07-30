@@ -1,3 +1,8 @@
+- name: LinkedIn
+  username: Rakesh Bal
+  url: https://www.linkedin.com/in/rakesh-bal-521625138/
+  icon: linkedin
+
 - name: GitHub
   username: rakeshbal99
   url: https://github.com/rakeshbal99
@@ -8,12 +13,12 @@
   url: https://letterboxd.com/rakeshbal99
   icon: letterboxd
 
-- name: LinkedIn
-  username: Rakesh Bal
-  url: https://www.linkedin.com/in/rakesh-bal-521625138/
-  icon: linkedin
-
 - name: Google Scholar
   username: Rakesh Bal
   url: https://scholar.google.co.in/citations?user=P2DO4fsAAAAJ
   icon: scholar
+
+- name: Instagram
+  username: rakeshbal99
+  url: https://www.instagram.com/rakeshbal99/
+  icon: instagram

@@ -9,15 +9,15 @@ My Research interests revolve around Machine Learning, Natural Language Processi
 #### **Research Papers**
 
 [PGraphDTA: Improving DT Interaction Prediction using Protein Language Models & Contact Maps](https://arxiv.org/abs/2310.04017)
-*Rakesh Bal**, Yijia Xiao, Wei Wang
+*Rakesh Bal*, Yijia Xiao, Wei Wang
 **37th Advances in Neural Information Processing Systems (NeurIPS-23) Workshop on AI for Science**
 
 [Two-Sided Fairness in Non-Personalised Recommendations](https://ojs.aaai.org/index.php/AAAI/article/view/17922)
-Aadi Swadipto Mondal*, *Rakesh Bal**, Sayan Sinha*, Gourab K Patro
+Aadi Swadipto Mondal\*, *Rakesh Bal*\*, Sayan Sinha\*, Gourab K Patro
 **35th AAAI Conference on Artificial Intelligence (AAAI-21) Student Papers and Demonstrations**
 
 [Analysing the Extent of Misinformation in Cancer Related Tweets](https://www.aaai.org/ojs/index.php/ICWSM/article/view/7359)
-*Rakesh Bal**, Sayan Sinha*, Swastika Dutta, Rishabh Joshi, Sayan Ghosh, Ritam Dutt
+*Rakesh Bal*\*, Sayan Sinha\*, Swastika Dutta, Rishabh Joshi, Sayan Ghosh, Ritam Dutt
 **14th International AAAI Conference on Web and Social Media (ICWSM 2020)**
 
 #### **Other Research Projects**

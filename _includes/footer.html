@@ -11,7 +11,7 @@
       <div class="footer-col footer-col-1">
         <ul class="social-media-list">
           {% for social in site.data.social %}
-          {% if social.icon == "github" or social.icon == "letterboxd" or social.icon == "linkedin" %}
+          {% if social.icon == "linkedin" or social.icon == "github" or social.icon == "scholar" %}
           <li>
             <a href="{{ social.url }}">
               <span class="icon icon--{{ social.icon }}">
@@ -27,7 +27,7 @@
       <div class="footer-col footer-col-4">
         <ul class="social-media-list">
           {% for social in site.data.social %}
-          {% if social.icon == "scholar" %}
+          {% if social.icon == "letterboxd" or social.icon == "instagram" %}
           <li>
             <a href="{{ social.url }}">
               <span class="icon icon--github">
@@ -38,6 +38,9 @@
           </li>
           {% endif %}
           {% endfor %}
+          {% comment %}
+          <li>Template Credits: <a href="http://martiansideofthemoon.github.io/">Martian</a></li>
+          {% endcomment %}
           <li>
             <nav>
               <div class="theme-switch-wrapper">
@@ -49,7 +52,6 @@
               </div>
             </nav>
           </li>
-          <li>Template Credits: <a href="http://martiansideofthemoon.github.io/">Martian</a></li>
         </ul>
       </div>
     </div>
