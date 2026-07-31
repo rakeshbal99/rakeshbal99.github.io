@@ -497,6 +497,48 @@ pre>code {
 	}
 }
 
+.photo-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 16px;
+	margin-bottom: 15px
+}
+
+.photo-frame {
+	display: block;
+	aspect-ratio: 1 / 1;
+	background: #ffffff;
+	padding: 6px;
+	border-radius: 2px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	transition: transform 0.15s ease, box-shadow 0.15s ease
+}
+
+.photo-frame:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+}
+
+.photo-frame img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	border-radius: 1px
+}
+
+@media screen and (max-width: 800px) {
+	.photo-grid {
+		grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+		gap: 10px
+	}
+
+	.photo-frame {
+		padding: 4px
+	}
+}
+
 .highlight {
 	background: #fff
 }
