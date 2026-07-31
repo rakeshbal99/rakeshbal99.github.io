@@ -5,7 +5,7 @@ permalink: /photos
 description: A collection of personal photography.
 ---
 
-**Photography:** To do justice to my Japan Trip in 2026, I gifted myself a camera and boy did I fall in love with it! I loved it so much I bought a second lens to cover more zoom range. The whole process of framing, composition, chasing lights, shadows and editing made me look at the world with a new lens 📷 quite literally. Added a few snippets into my photo journey so far and grateful for every frame I and my friends have captured so far!! 
+**Photography:** To do justice to my Japan Trip in 2026, I gifted myself a camera and boy, did I fall in love with it! I loved it so much I bought a second lens to cover more zoom range. The whole process of framing, composition, chasing lights, shadows and editing made me look at the world with a new lens 📷 quite literally. I have curated a selection of photos from my journey and I'm grateful for every frame me and my friends have captured so far!! 
 
 Special Mentions: [Shivam](https://www.instagram.com/_shivam_kp_/), [Sayan](https://www.instagram.com/_americast_/), [Dibya](https://www.instagram.com/das.siddharth07/), [Sangeet](https://www.instagram.com/sangeetmishra_/), [Anurag](https://www.instagram.com/_anewraag_/), [Siddharth](https://www.instagram.com/das.siddharth07/)
 

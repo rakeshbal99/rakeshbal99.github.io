@@ -1,6 +1,6 @@
 # Site settings
 title: Rakesh Bal
-description: Personal portfolio and blog of Rakesh Bal - MLOps Engineer
+description: Personal portfolio and blog of Rakesh Bal
 author:
   name: Rakesh Bal
   email: rakeshbal99@gmail.com
@@ -52,6 +52,7 @@ exclude:
   - .git
   - .gitignore
   - README.md
+  - AGENTS.md
   - CLAUDE.md
   - .claude
 
