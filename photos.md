@@ -11,7 +11,7 @@ Special Mentions: [Shivam](https://www.instagram.com/_shivam_kp_/), [Sayan](http
 
 Special Thanks: [Sravya](https://www.instagram.com/sravyamukkavilli/), [Bilal](https://www.instagram.com/get_bilal/), [Ramni](https://www.instagram.com/rkisboring/), Rohan, [Tanvi](https://www.instagram.com/tanvi_bhandarkar/), [Gandharv](https://www.instagram.com/gandharvwadhwa19/), [Akanksh](https://www.instagram.com/akanksh__7/)
 
-**Gear:** Sony A6700 · Sigma 18-50mm f/2.8 · Sony 70-350mm f/4.7-6.3 · SmallRig Tripod · K&F Concept Polarizer
+**Gear:** Sony A6700 · Sigma 18-50mm f/2.8 · Sony 70-350mm f/4.5-6.3 · SmallRig Tripod · K&F Concept Polarizer
 
 {% assign last_trip = nil %}
 {% for photo in site.data.photos %}

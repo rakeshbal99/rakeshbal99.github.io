@@ -196,7 +196,8 @@ pre>code {
 }
 
 .icon>svg path {
-	fill: #828282
+	fill: var(--font-color);
+	opacity: 0.65
 }
 
 .site-header {
@@ -537,6 +538,53 @@ pre>code {
 	.photo-frame {
 		padding: 4px
 	}
+}
+
+.profile-frame {
+	background: #ffffff;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 2px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25)
+}
+
+.profile-frame img {
+	display: block;
+	width: 100%
+}
+
+.updates-box {
+	max-height: 220px;
+	overflow-y: auto;
+	border: 1px solid var(--divider-color);
+	border-radius: 4px;
+	padding: 4px 16px
+}
+
+.updates-table {
+	width: 100%;
+	border-collapse: collapse
+}
+
+.updates-table td {
+	padding: 10px 0;
+	vertical-align: top;
+	border-bottom: 1px solid var(--divider-color)
+}
+
+.updates-table tr:last-child td {
+	border-bottom: none
+}
+
+.updates-table td:first-child {
+	width: 90px;
+	white-space: nowrap;
+	font-family: var(--heading-font);
+	font-style: italic;
+	color: var(--font-color);
+	opacity: 0.65;
+	font-size: 15px;
+	padding-right: 12px
 }
 
 .highlight {
