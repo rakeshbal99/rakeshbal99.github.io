@@ -13,7 +13,7 @@ permalink: /cv
 
 ## Professional Summary
 
-ML Engineer with 5+ years of experience in production ML systems, LLM development, and applied AI research. Published at NeurIPS, AAAI, and ICWSM with 56+ citations. Track record of deploying ML at scale: 15-30% accuracy improvements, 99.89% pipeline uptime, and systems serving 50K+ daily users. Experienced in LLM fine-tuning, distributed training, and end-to-end MLOps. Strong foundation in responsible AI through published work on misinformation detection and algorithmic fairness.
+ML Engineer with 5+ years of experience in production ML systems, LLM development, and applied AI research. Published at NeurIPS, AAAI, and ICWSM with 67+ citations. Track record of deploying ML at scale: 15-30% accuracy improvements, 99.89% pipeline uptime, and systems serving 50K+ daily users. Experienced in LLM fine-tuning, distributed training, and end-to-end MLOps. Strong foundation in responsible AI through published work on misinformation detection and algorithmic fairness.
 
 ---
 
@@ -29,8 +29,13 @@ ML Engineer with 5+ years of experience in production ML systems, LLM developmen
 
 ## Work Experience
 
+### Google X (Tapestry) — San Francisco, CA
+**Software Engineer, ML** | Aug 2026 - Present
+
+- Spearhead the design and development of an MLOps platform on GCP, leveraging Vertex AI and KFP DAGs to support ML use cases across the organization, including computer vision, agentic systems, and time series forecasting
+
 ### Stovell AI Systems — San Francisco, CA
-**Machine Learning Engineer** | Jan 2024 - Present
+**Machine Learning Engineer** | Jan 2024 - Jul 2026
 
 - Architect end-to-end ML pipelines for model training, deployment, and monitoring, tracking both model accuracy and business ROI impact across multiple customers
 - Design and train custom architectures (Transformers, LSTMs, CNNs, hybrids) for fuel price and volume demand forecasting, achieving 15-30% MAE reduction
