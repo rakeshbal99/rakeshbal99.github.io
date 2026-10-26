@@ -45,10 +45,10 @@ Wide open in daylight,
 It belongs to the soul of a entire nation  
 Silenced by force,  
 It belongs to every woman feeling a  
-Draupadi by their protectors,  
+Draupadi by her protectors,  
 It belongs to every Bhim and Bhagat who,  
 Stood their ideals without haste;  
-It belongs to every Ram and Ashfaq who  
+It belongs to every Ram and Ashfaq who,  
 Gave their lives for harmony;  
 It belongs to you and me my comrades,  
 In blood, in vans, in veins, in chants,  
