@@ -202,6 +202,62 @@
   width: 500
   height: 444
 
+- thumb: /assets/images/gallery/thumbs/068-yosemite-dsc03717.jpg
+  full: /assets/images/gallery/full/068-yosemite-dsc03717.jpg
+  alt: "Tenaya Lake, Yosemite, at dusk"
+  trip: "California"
+  width: 500
+  height: 333
+
+- thumb: /assets/images/gallery/thumbs/069-eastern-sierra-dsc05155.jpg
+  full: /assets/images/gallery/full/069-eastern-sierra-dsc05155.jpg
+  alt: "Eastern Sierra lake with fall rabbitbrush"
+  trip: "California"
+  width: 500
+  height: 333
+
+- thumb: /assets/images/gallery/thumbs/070-eastern-sierra-dsc05198.jpg
+  full: /assets/images/gallery/full/070-eastern-sierra-dsc05198.jpg
+  alt: "Tufa towers, Mono Lake"
+  trip: "California"
+  width: 500
+  height: 333
+
+- thumb: /assets/images/gallery/thumbs/071-eastern-sierra-dsc05321.jpg
+  full: /assets/images/gallery/full/071-eastern-sierra-dsc05321.jpg
+  alt: "Eastern Sierra lake at dusk from a boat"
+  trip: "California"
+  width: 500
+  height: 333
+
+- thumb: /assets/images/gallery/thumbs/072-eastern-sierra-dsc05569.jpg
+  full: /assets/images/gallery/full/072-eastern-sierra-dsc05569.jpg
+  alt: "Eastern Sierra alpine lake"
+  trip: "California"
+  width: 500
+  height: 333
+
+- thumb: /assets/images/gallery/thumbs/073-eastern-sierra-dsc05836.jpg
+  full: /assets/images/gallery/full/073-eastern-sierra-dsc05836.jpg
+  alt: "Aspen-lined road in fall, Eastern Sierra"
+  trip: "California"
+  width: 333
+  height: 500
+
+- thumb: /assets/images/gallery/thumbs/074-eastern-sierra-dsc05953-2-2.jpg
+  full: /assets/images/gallery/full/074-eastern-sierra-dsc05953-2-2.jpg
+  alt: "Old truck and wagon in golden grass, Eastern Sierra"
+  trip: "California"
+  width: 500
+  height: 333
+
+- thumb: /assets/images/gallery/thumbs/075-eastern-sierra-dsc06074.jpg
+  full: /assets/images/gallery/full/075-eastern-sierra-dsc06074.jpg
+  alt: "Sunset over Sierra ridgelines"
+  trip: "California"
+  width: 500
+  height: 333
+
 - thumb: /assets/images/gallery/thumbs/026-california-dsc00807.jpg
   full: /assets/images/gallery/full/026-california-dsc00807.jpg
   alt: "California"
@@ -229,6 +285,13 @@
   trip: "California"
   width: 375
   height: 500
+
+- thumb: /assets/images/gallery/thumbs/076-eastern-sierra-dsc05093.jpg
+  full: /assets/images/gallery/full/076-eastern-sierra-dsc05093.jpg
+  alt: "Female mallard on an Eastern Sierra lake"
+  trip: "California"
+  width: 500
+  height: 333
 
 - thumb: /assets/images/gallery/thumbs/061-california-dsc06344-3.jpg
   full: /assets/images/gallery/full/061-california-dsc06344-3.jpg
