@@ -24,7 +24,8 @@ JS (theme switcher only), Atom feed via `jekyll-feed`. GitHub Pages builds with 
 │   └── poem.html         # Poems (adds a drop-cap on the first letter)
 ├── _includes/
 │   ├── head.html         # Meta tags, Google Fonts, SEO
-│   ├── header.html       # Nav bar, loops over _data/navigation.yml
+│   ├── header.html       # Nav bar (mobile menu toggled by assets/js/nav.js)
+│   ├── running-title.html # Sticky title on poems/posts (assets/js/running-title.js)
 │   ├── footer.html       # Contact info, social links, dark-mode toggle
 │   └── social-icons.html # Inline SVG icons, selected by `icon` name
 ├── _data/

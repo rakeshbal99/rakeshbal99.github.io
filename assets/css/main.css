@@ -238,47 +238,86 @@ pre>code {
 	margin-right: 20px
 }
 
+/* Mobile menu: a compact tap-to-toggle button (see assets/js/nav.js) with the
+   links in a separate dropdown panel, so the closed button stays icon-sized. */
 @media screen and (max-width: 600px) {
 	.site-nav {
 		position: absolute;
 		top: 9px;
 		right: 15px;
-		background-color: #fff;
-		border: 1px solid #e8e8e8;
-		border-radius: 5px;
-		text-align: right
+		z-index: 60;
+		line-height: 1.5
 	}
 	.site-nav .menu-icon {
-		display: block;
-		float: right;
-		width: 36px;
-		height: 26px;
-		line-height: 0;
-		padding-top: 10px;
-		text-align: center
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+		height: 38px;
+		margin: 0;
+		padding: 0;
+		border: 1px solid var(--divider-color);
+		border-radius: 8px;
+		background-color: var(--bg-color);
+		color: var(--font-color);
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		touch-action: manipulation;
+		transition: border-color 0.2s ease
+	}
+	.site-nav.is-open .menu-icon {
+		border-color: var(--anchor-color)
 	}
 	.site-nav .menu-icon>svg {
 		width: 18px;
-		height: 15px
+		height: 15px;
+		fill: currentColor
 	}
-	.site-nav .menu-icon>svg path {
-		fill: #424242
+	.site-nav .menu-icon:focus {
+		outline: none
+	}
+	.site-nav .menu-icon:focus-visible {
+		outline: 2px solid var(--anchor-color);
+		outline-offset: 2px
 	}
 	.site-nav .trigger {
-		clear: both;
-		display: none
+		position: absolute;
+		top: calc(100% + 6px);
+		right: 0;
+		min-width: 150px;
+		padding: 6px 0;
+		background-color: var(--bg-color);
+		border: 1px solid var(--divider-color);
+		border-radius: 8px;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+		text-align: right;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-6px);
+		transform-origin: top right;
+		transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s linear 0.18s
 	}
-	.site-nav:hover .trigger {
-		display: block;
-		padding-bottom: 5px
+	.site-nav.is-open .trigger {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+		transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s
 	}
 	.site-nav .page-link {
 		display: block;
-		padding: 5px 10px;
-		margin-left: 20px
+		padding: 9px 18px;
+		-webkit-tap-highlight-color: transparent
 	}
 	.site-nav .page-link:not(:last-child) {
 		margin-right: 0
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.site-nav,
+	.site-nav .trigger,
+	.site-nav.is-open .trigger {
+		transition: none
 	}
 }
 
@@ -471,6 +510,124 @@ pre>code {
 	line-height: 0.8;
 	padding-right: 8px;
 	color: var(--anchor-color)
+}
+
+/* Running title for poems and posts (see assets/js/running-title.js).
+   Narrow screens: slim bar pinned to the top with a reading-progress line.
+   Wide screens (>= 1100px): vertical "book spine" in the left margin. */
+.running-title {
+	position: fixed;
+	z-index: 50;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0.2s;
+	font-family: var(--heading-font);
+	color: var(--font-color);
+	text-decoration: none
+}
+
+.running-title:visited,
+.running-title:hover {
+	color: var(--font-color);
+	text-decoration: none
+}
+
+.running-title.is-visible {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+	transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s
+}
+
+.running-title-text {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+/* Narrow: pinned top bar */
+.running-title {
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 15px;
+	font-size: 15px;
+	font-style: italic;
+	background-color: var(--bg-color);
+	border-bottom: 1px solid var(--divider-color);
+	transform: translateY(-100%)
+}
+
+.running-title.is-visible {
+	transform: translateY(0)
+}
+
+.running-title-progress {
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	height: 2px;
+	width: 100%;
+	background-color: var(--anchor-color);
+	transform-origin: left center;
+	transform: scaleX(var(--read-progress, 0))
+}
+
+/* Wide: full-height vertical spine in the left margin, beside the 740px text column.
+   The hairline spans the window height and fills downward with reading progress. */
+@media screen and (min-width: 1100px) {
+	.running-title {
+		top: 0;
+		bottom: 0;
+		left: calc(50% - 370px - 100px);
+		right: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 16px 0 0;
+		background: none;
+		border: none;
+		border-right: 1px solid var(--divider-color);
+		writing-mode: vertical-rl;
+		font-size: 16px;
+		font-style: normal;
+		font-variant: small-caps;
+		letter-spacing: 0.3em;
+		transform: translateX(-6px)
+	}
+
+	.running-title.is-visible {
+		opacity: 0.6;
+		transform: none
+	}
+
+	.running-title.is-visible:hover {
+		opacity: 0.9
+	}
+
+	.running-title-text {
+		max-height: 80vh
+	}
+
+	.running-title-progress {
+		top: 0;
+		bottom: auto;
+		left: auto;
+		right: -1px;
+		width: 1px;
+		height: 100%;
+		transform-origin: center top;
+		transform: scaleY(var(--read-progress, 0))
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.running-title,
+	.running-title.is-visible {
+		transition: none
+	}
 }
 
 .skills-table {

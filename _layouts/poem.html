@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post poem" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post poem" id="article-top" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">
@@ -12,6 +12,8 @@ layout: default
   </header>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    <p>&copy; Rakesh Bal.</p>
+    <p class="running-title-end">&copy; Rakesh Bal.</p>
   </div>
 </article>
+
+{% include running-title.html %}

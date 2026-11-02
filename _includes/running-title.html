@@ -1,0 +1,9 @@
+<!-- Running title: vertical spine on wide screens, slim pinned bar on narrow ones.
+     Shown only while the main title is scrolled out of view; hides near the
+     .running-title-end marker. Used by the poem and post layouts.
+     See assets/js/running-title.js. -->
+<a class="running-title" href="#article-top" aria-hidden="true" tabindex="-1">
+  <span class="running-title-text">{{ page.title }}</span>
+  <span class="running-title-progress"></span>
+</a>
+<script src="{{ '/assets/js/running-title.js' | relative_url }}" defer></script>
