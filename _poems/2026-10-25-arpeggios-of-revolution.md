@@ -38,7 +38,7 @@ They have maimed the tenets of my nation in reprise.
 In the awakenings of lathis, whistles,  
 In the deafening chaos of man versus man,  
 One tiny slender tender girl raises her voice aloud,  
-And asks my lordship who does this land belongs to?
+And asks my lordship who does this land belong to?
 
 It belongs to the voices cracked,  
 Wide open in daylight,  
