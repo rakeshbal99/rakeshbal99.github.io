@@ -6,14 +6,14 @@ permalink: /cv
 
 <div class="cv-links">
   <span><a href="{{ '/assets/cv_short.pdf' | relative_url }}">Download PDF</a> (1 page)</span>
-  <span><a href="{{ '/assets/cv_enhanced.tex' | relative_url }}">LaTeX Source</a></span>
+  <span><a href="{{ '/assets/cv_long.pdf' | relative_url }}">Full CV</a> (2 pages)</span>
 </div>
 
 ---
 
 ## Professional Summary
 
-ML Engineer with 5+ years of experience in production ML systems, LLM development, and applied AI research. Published at NeurIPS, AAAI, and ICWSM with 67+ citations. Track record of deploying ML at scale: 15-30% accuracy improvements, 99.89% pipeline uptime, and systems serving 50K+ daily users. Experienced in LLM fine-tuning, distributed training, and end-to-end MLOps. Strong foundation in responsible AI through published work on misinformation detection and algorithmic fairness.
+ML Engineer with 4+ years of experience in production ML systems, LLM development, and applied AI research. Published at NeurIPS, AAAI, and ICWSM with 71 citations. Track record of deploying ML at scale: 15-30% accuracy improvements, 99.89% pipeline uptime, and systems serving 50K+ daily users. Experienced in LLM fine-tuning, distributed training, and end-to-end MLOps. Strong foundation in responsible AI through published work on misinformation detection and algorithmic fairness.
 
 ---
 
@@ -32,7 +32,7 @@ ML Engineer with 5+ years of experience in production ML systems, LLM developmen
 ### Google X (Tapestry) — San Francisco, CA
 **Software Engineer, ML** | Aug 2026 - Present
 
-- Spearhead the design and development of an MLOps platform on GCP, leveraging Vertex AI and KFP DAGs to support ML use cases across the organization, including computer vision, agentic systems, and time series forecasting
+- Spearhead the design and development of an MLOps platform on GCP, leveraging Vertex AI and KFP DAGs to support ML use cases across the organization, including computer vision, agentic systems, and agentic evals
 
 ### Stovell AI Systems — San Francisco, CA
 **Machine Learning Engineer** | Jan 2024 - Jul 2026
