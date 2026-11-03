@@ -4,13 +4,16 @@ title: Blogs
 permalink: /archive
 ---
 
+{% comment %}
+Archived Nov 2026: AI blogs list (last updated April 29, 2022). Remove this
+comment block to show it again.
+
 <h2>List of AI Blogs/Papers/Videos</h2>
 
 <ul>
   <li><b><a href="{{ '/ai-blogs' | relative_url }}">AI Blogs</a></b> (Last Updated: April 29, 2022)</li>
 </ul>
-
-<h2>Personal Blogs</h2>
+{% endcomment %}
 
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% for year in posts_by_year %}

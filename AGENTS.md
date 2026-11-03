@@ -31,7 +31,8 @@ JS (theme switcher only), Atom feed via `jekyll-feed`. GitHub Pages builds with 
 ├── _data/
 │   ├── navigation.yml    # Nav menu items ({title, url})
 │   ├── social.yml        # Social profiles ({name, username, url, icon})
-│   └── photos.yml        # Photo gallery entries (see below)
+│   ├── photos.yml        # Photo gallery entries (see below)
+│   └── publications.yml  # Research papers on /research (title, authors, venue, citations)
 ├── _posts/                # Blog posts, YYYY-MM-DD-title.md
 ├── _poems/                # Poems collection, YYYY-MM-DD-title.md
 ├── assets/

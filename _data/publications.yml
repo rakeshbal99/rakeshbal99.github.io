@@ -1,0 +1,22 @@
+# Research papers shown on /research (newest first).
+# `me` is the author name to highlight; append "*" in `authors` for equal contribution.
+- title: "PGraphDTA: Improving Drug–Target Interaction Prediction using Protein Language Models & Contact Maps"
+  url: https://arxiv.org/abs/2310.04017
+  authors: ["Rakesh Bal", "Yijia Xiao", "Wei Wang"]
+  tag: "NeurIPS 2023 · Workshop"
+  venue: "37th Conference on Neural Information Processing Systems (NeurIPS 2023), Workshop on AI for Science"
+  citations: 15
+
+- title: "Two-Sided Fairness in Non-Personalised Recommendations"
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/17922
+  authors: ["Aadi Swadipto Mondal*", "Rakesh Bal*", "Sayan Sinha*", "Gourab K. Patro"]
+  tag: "AAAI 2021"
+  venue: "35th AAAI Conference on Artificial Intelligence (AAAI-21), Student Papers and Demonstrations"
+  citations: 10
+
+- title: "Analysing the Extent of Misinformation in Cancer Related Tweets"
+  url: https://ojs.aaai.org/index.php/ICWSM/article/view/7359
+  authors: ["Rakesh Bal*", "Sayan Sinha*", "Swastika Dutta", "Rishabh Joshi", "Sayan Ghosh", "Ritam Dutt"]
+  tag: "ICWSM 2020"
+  venue: "14th International AAAI Conference on Web and Social Media (ICWSM 2020)"
+  citations: 46

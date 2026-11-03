@@ -6,19 +6,27 @@ permalink: /research
 
 My Research interests revolve around Machine Learning, Natural Language Processing and Fairness aspects of various AI Domains.
 
-#### **Research Papers**
+{% assign total_citations = 0 %}
+{% for pub in site.data.publications %}{% assign total_citations = total_citations | plus: pub.citations %}{% endfor %}
+<div class="pubs-header">
+<h4><strong>Research Papers</strong></h4>
+<a class="pubs-total" href="https://scholar.google.co.in/citations?user=P2DO4fsAAAAJ" title="Google Scholar, November 2026"><span class="pubs-total-num">{{ total_citations }}</span> citations · Google Scholar</a>
+</div>
 
-[PGraphDTA: Improving DT Interaction Prediction using Protein Language Models & Contact Maps](https://arxiv.org/abs/2310.04017)
-*Rakesh Bal*, Yijia Xiao, Wei Wang
-**37th Advances in Neural Information Processing Systems (NeurIPS-23) Workshop on AI for Science**
-
-[Two-Sided Fairness in Non-Personalised Recommendations](https://ojs.aaai.org/index.php/AAAI/article/view/17922)
-Aadi Swadipto Mondal\*, *Rakesh Bal*\*, Sayan Sinha\*, Gourab K Patro
-**35th AAAI Conference on Artificial Intelligence (AAAI-21) Student Papers and Demonstrations**
-
-[Analysing the Extent of Misinformation in Cancer Related Tweets](https://www.aaai.org/ojs/index.php/ICWSM/article/view/7359)
-*Rakesh Bal*\*, Sayan Sinha\*, Swastika Dutta, Rishabh Joshi, Sayan Ghosh, Ritam Dutt
-**14th International AAAI Conference on Web and Social Media (ICWSM 2020)**
+<ol class="pubs">
+{% for pub in site.data.publications %}
+<li class="pub">
+<div class="pub-top">
+<span class="pub-tag">{{ pub.tag }}</span>
+<span class="pub-cites" title="Citations on Google Scholar">Cited by {{ pub.citations }}</span>
+</div>
+<a class="pub-title" href="{{ pub.url }}">{{ pub.title }}</a>
+<div class="pub-authors">{% for a in pub.authors %}{% assign name = a | remove: "*" %}{% if name == "Rakesh Bal" %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+<div class="pub-venue">{{ pub.venue }}</div>
+</li>
+{% endfor %}
+</ol>
+<p class="pubs-note">* equal contribution</p>
 
 #### **Other Research Projects**
 
