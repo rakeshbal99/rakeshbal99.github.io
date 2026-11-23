@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /research
+permalink: /research/
 ---
 
 My Research interests revolve around Machine Learning, Natural Language Processing and Fairness aspects of various AI Domains.

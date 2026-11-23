@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Blogs
-permalink: /ai-blogs
+permalink: /ai-blogs/
 ---
 
 - **[A Revised History of Deep Learning - Issue #1](https://www.getrevue.co/profile/deeprevision/issues/a-revised-history-of-deep-learning-issue-1-1145664)**

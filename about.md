@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 I completed my bachelors and masters in Computer Science from IIT Kharagpur and University of California Los Angeles (UCLA) respectively. My research interests revolve around Machine Learning, Natural Language Processing and Fairness aspects of various AI Domains.

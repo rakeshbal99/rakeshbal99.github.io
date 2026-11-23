@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Poems
-permalink: /poems
+permalink: /poems/
 ---
 
 {% assign poems_by_year = site.poems | sort: "date" | reverse | group_by_exp: "poem", "poem.date | date: '%Y'" %}
