@@ -494,6 +494,28 @@ pre>code {
 	gap: 10px
 }
 
+/* CV entry headings: "### Name <span class="cv-loc">City</span>".
+   The location sits at the right of the name's line and, when space runs
+   out, drops below as one unit instead of splitting mid-phrase. */
+.post-content h3:has(> .cv-loc) {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	column-gap: 16px
+}
+
+.cv-loc {
+	margin-left: 0.4em;
+	font-size: 0.65em;
+	opacity: 0.75;
+	white-space: nowrap
+}
+
+.post-content h3:has(> .cv-loc) > .cv-loc {
+	margin-left: 0
+}
+
 .post-content ul li {
 	margin-bottom: 8px;
 	line-height: 1.75

@@ -19,22 +19,22 @@ ML Engineer with 4+ years of experience in production ML systems, LLM developmen
 
 ## Education
 
-### University of California Los Angeles (UCLA) — Los Angeles, CA
+### University of California Los Angeles (UCLA) <span class="cv-loc">Los Angeles, CA</span>
 **Master of Science in Computer Science** | GPA: 3.81/4.0 | Sep 2021 - Jun 2023
 
-### Indian Institute of Technology (IIT) Kharagpur — Kharagpur, India
+### Indian Institute of Technology (IIT) Kharagpur <span class="cv-loc">Kharagpur, India</span>
 **Bachelor of Technology in Computer Science & Engineering** | GPA: 9.04/10.0 | Jul 2016 - May 2020
 
 ---
 
 ## Work Experience
 
-### Google X (Tapestry) — San Francisco, CA
+### Google X (Tapestry) <span class="cv-loc">San Francisco, CA</span>
 **Software Engineer, ML** | Aug 2026 - Present
 
 - Spearhead the design and development of an MLOps platform on GCP, leveraging Vertex AI and KFP DAGs to support ML use cases across the organization, including computer vision, agentic systems, and agentic evals
 
-### Stovell AI Systems — San Francisco, CA
+### Stovell AI Systems <span class="cv-loc">San Francisco, CA</span>
 **Machine Learning Engineer** | Jan 2024 - Jul 2026
 
 - Architect end-to-end ML pipelines for model training, deployment, and monitoring, tracking both model accuracy and business ROI impact across multiple customers
@@ -44,7 +44,7 @@ ML Engineer with 4+ years of experience in production ML systems, LLM developmen
 - Implement comprehensive monitoring with DataDog and Weights & Biases for data quality validation, model drift detection, and accuracy tracking across geographies
 - Conduct systematic model evaluation including robustness testing, edge case analysis, and failure mode identification before production deployment
 
-### Amazon Web Services (AWS) — San Francisco, CA
+### Amazon Web Services (AWS) <span class="cv-loc">San Francisco, CA</span>
 **Applied Scientist Intern** | Jun 2022 - Sep 2022
 
 - Benchmarked large language models (ProtBERT, ProtT5, ProtGPT) for Drug-Target Interaction (DTI) prediction; integrated diffusion-based molecular docking
@@ -52,24 +52,24 @@ ML Engineer with 4+ years of experience in production ML systems, LLM developmen
 - Improved baseline performance by 20% and 12% on two benchmark datasets using protein language model embeddings; results presented at Amazon ML Conference
 - Developed systematic evaluation pipeline for model comparison including accuracy, inference latency, and computational cost tradeoffs
 
-### Goldman Sachs — Bangalore, India
+### Goldman Sachs <span class="cv-loc">Bangalore, India</span>
 **Software Engineer** | Aug 2020 - Sep 2021
 
 - Led full-stack development integrating two internal bug tracking systems with migration to AWS, architecting scalable RESTful APIs serving 50,000+ daily users
 - Built backend services with Java/Spring Boot and frontend with TypeScript/Angular; managed complete SDLC from requirements to production deployment
 - Designed database schemas and optimized query performance for high-throughput issue tracking workflows
 
-### Kanini Software Solutions — Los Angeles, CA
+### Kanini Software Solutions <span class="cv-loc">Los Angeles, CA</span>
 **DevOps Engineer** | Aug 2023 - Jan 2024
 
 - Automated infrastructure provisioning for healthcare platform using Terraform, improving deployment reliability with AWS S3, Lambda, and RDS
 
-### Accenture Technology Labs — Bangalore, India
+### Accenture Technology Labs <span class="cv-loc">Bangalore, India</span>
 **Research Intern** | May 2019 - Aug 2019
 
 - Developed GCN-based stock prediction model integrating news articles and knowledge graphs, improving MSE by 5% over baseline methods
 
-### University of California Los Angeles — Los Angeles, CA
+### University of California Los Angeles <span class="cv-loc">Los Angeles, CA</span>
 **Graduate Teaching Associate** | Sep 2021 - Jun 2023
 
 - Led discussions and office hours for 500+ undergraduates in CS32 (Data Structures) and Chemistry 20A, totaling 500+ teaching hours across 5 quarters
